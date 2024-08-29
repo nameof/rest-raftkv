@@ -6,9 +6,9 @@ import com.google.common.collect.Sets;
 import java.util.Set;
 
 public class LogFormatter {
-    private static final String SET = "set";
-    private static final String DELETE = "delete";
-    private static final String CLEAR = "clear";
+    public static final String SET = "set";
+    public static final String DELETE = "delete";
+    public static final String CLEAR = "clear";
     private static final Set<String> ALL = Sets.newHashSet(SET, DELETE, CLEAR);
 
     public static String log(String command, String key, String value) {
